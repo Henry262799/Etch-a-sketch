@@ -21,8 +21,8 @@ h1{
 }
 
 .grid_container{
-    width:500px;
-    height:500px;
+    width:960px;
+    height:960px;
     display: grid;
     grid-template-columns:repeat(16,1fr);
     grid-template-rows: repeat(16,1fr);
@@ -37,4 +37,18 @@ h1{
 
 .grid_section_hovered{
     background-color:lightgray;
+}
+
+.button_management{
+    display: flex;
+    width: 500px;
+    height: auto;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.grid_size{
+    align-self: flex-start;
+    height: 100px;
+    width: 200px;
 }
